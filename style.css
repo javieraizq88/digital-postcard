@@ -4,7 +4,7 @@ body{
     font-family: 'Handlee', cursive;
 }
 .postcard{
-    background: white; 
+    background: rgb(115, 180, 223); 
     width: 500px; 
     height: 300px; 
     margin: auto; 
