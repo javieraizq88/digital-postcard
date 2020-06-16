@@ -1,10 +1,10 @@
 body{
-    background: #dac980; 
+    background: black; 
     font-size: 18px;
     font-family: 'Handlee', cursive;
 }
 .postcard{
-    background: rgb(115, 180, 223); 
+    background: rgb(191, 205, 214); 
     width: 500px; 
     height: 300px; 
     margin: auto; 
@@ -16,7 +16,7 @@ body{
 }
 
 .postcard-header{
-    overflow:hidden;
+    overflow: hidden;
 }
 
 .postcard-header img{
@@ -28,13 +28,47 @@ body{
     overflow: hidden;
 }
 
-input{font-size: 18px; font-family: "Handlee", cursive;}
-.postcard h1{margin:0;}
-.left-part{float: left;width: 50%;}
-.right-part{float: right;width: 50%;}
-.right-part input{display: block;}
-h1{font-size: 35px;}
-.postcard-footer{padding: 10px; text-align: center;}
-.postcard-footer input[type=submit]{border: none; border-bottom: 1px solid gray;}
-.postcard-body input[type=text]{border: none; border-bottom: 1px solid gray;
-    width: 240px;}
+input{
+    font-size: 18px; 
+    font-family: "Handlee", cursive;
+}
+
+.postcard h1{
+    margin: 0;
+}
+
+.left-part{
+    float: left;
+    width: 230px;
+    text-align: justify;
+}
+
+.right-part{
+    float: right;
+    width: 50%;
+    margin-top: 20px;
+}
+
+.right-part input{
+    display: block;
+}
+
+h1{
+    font-size: 35px;
+}
+
+.postcard-footer{
+    padding: 10px; 
+    text-align: center;
+}
+
+.postcard-footer input{
+    border: none; 
+    border-bottom: 1px solid gray;
+}
+
+.postcard-body input{
+    border: none; 
+    border-bottom: 1px solid gray;
+    width: 240px;
+}
